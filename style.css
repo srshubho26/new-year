@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+font-family: "Merriweather", serif;
+
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-variation-settings:
+    "slnt" 0;
+
+*/
+
+/* Shared CSS */
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.largeTitle{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 30px;
+    font-family: "Merriweather", serif;
+}
+
+.secTitle{
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.subTitle{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-primary{
+    color: rgb(255, 0, 0);
+}
+
+.bg-primary{
+    background: rgb(255, 0, 0);;
+}
+
+.short-desc{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+header{
+    text-align: center;
+}
+
+header .header-bg{
+    min-height: 600px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(images/Banner\ Image.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 175px;
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+}
+
+header h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.discount{
+    text-align: center;
+    width: 800px;
+    margin: 120px auto;
+}
+
+.discount h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+.discount h3{
+    font-family: Inter;
+}
+
+.discount img{
+    margin-top: 45px;
+}
+
+.party{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(images/vector.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 65px 120px;
+    gap: 40px;
+    align-items: center;
+}
+
+.party h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    padding-right: 94px;
+}
+
+.party p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 45px 0;
+}
+
+.party a{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.event-details{
+    margin-top: 120px;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+
+.event-details h4{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.event-details a{
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    margin-top: 45px;
+}
+
+
+.best-offer{
+    margin-top: 120px;
+}
+
+.single-offer{
+    flex-basis: 31%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer-left{
+    padding-right: 30px;
+}
+
+.offer-middle{
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.offer-right{
+    padding-left: 50px;
+}
+
+
+.holiday-sale{
+    margin-top: 120px;
+}
+
+.holiday-sale-top{
+    text-align: center;
+}
+
+.holiday-sale-top h2{
+    margin-top: 15px;
+}
+
+.holiday-sale-top .subTitle{
+    color: rgb(7, 2, 17);
+}
+
+.holiday-sale-top .short-desc{
+    margin: 28px 0;
+}
+
+.gift-wrap{
+    position: relative;
+    min-height: 550px;
+}
+
+.gift-wrap::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 230px;
+    background: rgb(255, 0, 0);
+    border-radius: 0 0 16px 16px;
+}
+
+.gift-img{
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    width: 550px;
+    height: auto;
+}
+
+.discount-ball{
+    color: #fff;
+    font-family: Inter;
+    width: 220px;
+    height: 220px;
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 55px 45px;
+    transform: rotate(-35deg);
+    margin: 80px 150px;
+}
+
+.discount-ball p:first-child{
+    font-size: 73.02px;
+    font-weight: 700;
+}
+
+.discount-ball p:last-child{
+    font-size: 24.34px;
+    font-weight: 900;
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+
+.portfolio{
+    margin-top: 120px;
+}
+
+.title-box{
+    text-align: center;
+    width: 895px;
+    margin: 0 auto;
+}
+
+.portfolio-wrap{
+    margin-top: 45px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.portfolio-wrap img{
+    border-radius: 16px;
+}
+
+
+.newsletter{
+    text-align: center;
+    margin-top: 120px;
+    padding: 80px 212px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter form{
+    width: 650px;
+    margin: 45px auto;
+    font-family: Inter;
+}
+
+.newsletter form input, .newsletter form button{
+    padding: 24px 56px;
+    border: none;
+}
+
+.newsletter form input{
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px 0 0 50px;
+    flex-basis: 90%;
+}
+
+.newsletter form input::placeholder{
+    color: rgba(7, 2, 17, 0.3);
+}
+
+.newsletter form button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: rgb(255, 0, 0);
+    border-radius: 0 50px 50px 0;
+}
+
+footer{
+    margin-top: 120px;
+    padding: 120px 0;
+    background: rgb(7, 2, 17);
+}
+
+footer .subTitle, footer a{
+    color: #fff;
+    line-height: 48px;
+    text-decoration: none;
+}
+
+footer .right .subTitle{
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .right .subTitle img{
+    height: 40px;
+}
+
+footer .social-part{
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer .social-part img{
+    margin: 0 12px;
+}
