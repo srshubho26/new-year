@@ -1,0 +1,341 @@
+@media only screen and (max-width: 1320px){
+    header .header-bg {
+        min-height: 550px;
+        padding: 140px;
+    }
+
+    .discount h2 {
+        font-size: 70px;
+        margin-bottom: 25px;
+    }
+
+    .secTitle {
+        font-size: 34px;
+        margin: 10px 0;
+    }
+
+    .short-desc {
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+
+    .discount img {
+        max-width: 650px;
+    }
+
+    .party {
+        padding: 65px;
+    }
+
+    .party h2 {
+        line-height: 1em;
+        padding-right: 40px;
+    }
+
+    .best-offer {
+        padding: 0 10px;
+    }
+
+    .offer-left {
+        padding-right: 20px;
+    }
+
+    .offer-right {
+        padding-left: 20px;
+    }
+
+    .gift-wrap {
+        min-height: 440px;
+    }
+
+    .gift-wrap::before {
+        height: 130px;
+    }
+
+    .gift-img {
+        bottom: 30px;
+        width: 400px;
+    }
+
+    .portfolio-wrap img {
+        max-width: 32%;
+    }
+
+    .newsletter {
+        padding: 80px;
+    }
+
+    footer {
+        padding: 100px 20px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .subTitle {
+        font-size: 19px;
+    }
+
+    .secTitle {
+        font-size: 28px;
+    }
+
+    .short-desc {
+        font-size: 17px;
+        line-height: 1.1em;
+    }
+
+    .party {
+        padding: 35px;
+    }
+
+    .party h2 {
+        padding-right: 0;
+        font-size: 54px;
+    }
+
+    .best-offer .offer-middle{
+        padding: 30px;
+    }
+
+    .best-offer .offer-middle img{
+        max-width: 250px;
+    }
+
+    .gift-img {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    header .header-bg {
+        min-height: 500px;
+        padding: 140px 100px;
+    }
+
+    .largeTitle {
+        font-size: 52px;
+    }
+
+    .party .party-left{
+        flex-basis: 60%;
+    }
+
+    .party h2 {
+        font-size: 42px;
+    }
+
+    .party p {
+        line-height: 1.3em;
+        margin: 25px 0;
+    }
+
+    .party .party-right{
+        flex-basis: 40%;
+    }
+    
+    .party .party-right img{
+        width: 100%;
+    }
+
+    .discount img {
+        max-width: 550px;
+    }
+
+    .best-offer {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        text-align: center;
+    }
+
+    .best-offer .single-offer {
+        flex-basis: 100%;
+    }
+
+    .best-offer .offer-middle {
+        flex-basis: 60%;
+    }
+
+    .best-offer .offer-middle img {
+        max-width: 100%;
+    }
+
+    .gift-wrap{
+        overflow: hidden;
+    }
+
+    .discount-ball {
+        margin: 80px 10px;
+    }
+
+    .portfolio-wrap {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .newsletter {
+        padding: 80px 20px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    header .header-bg {
+        min-height: auto;
+        padding: 50px 10px;
+    }
+
+    .largeTitle {
+        font-size: 42px;
+    }
+
+    .party {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .party h2 {
+        font-size: 36px;
+    }
+
+    .party .party-left, .party .party-right {
+        flex-basis: 100%;
+    }
+
+    .party .party-right img{
+        max-width: 200px;
+    }
+
+
+    .event-details {
+        margin-top: 60px;
+        padding: 50px 10px;
+    }
+
+    .event-details h4 {
+        font-size: 22px;
+        line-height: 1.7em;
+    }
+
+    .event-details a {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 30px;
+    }
+
+    .best-offer {
+        margin-top: 60px;
+    }
+
+    .best-offer .offer-middle {
+        flex-basis: 100%;
+        max-width: 350px;
+        padding: 10px;
+        border-width: 10px;
+    }
+
+    .holiday-sale {
+        margin-top: 60px;
+        padding:  0 10px;
+    }
+
+    .holiday-sale .largeTitle {
+        font-size: 36px;
+        margin-top: 5px;
+    }
+
+    .discount-ball {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 10px;
+    }
+
+    .gift-wrap {
+        min-height: 400px;
+    }
+
+    .gift-img {
+        width: 250px;
+    }
+
+    .discount-ball p:first-child {
+        font-size: 36px;
+    }
+
+    .discount-ball p:last-child {
+        font-size: 18px;
+    }
+
+    .discount img {
+        max-width: 100%;
+    }
+
+    .portfolio {
+        margin-top: 60px;
+        padding: 0 10px;
+    }
+
+    .portfolio-wrap img {
+        max-width: 48%;
+    }
+
+    .newsletter form {
+        flex-wrap: wrap;
+    }
+
+    .newsletter form input{
+        padding: 15px 20px;
+        margin-bottom: 10px;
+    }
+
+    .newsletter form button{
+        padding: 10px 20px;
+    }
+
+    .newsletter form input {
+        flex-basis: 100%;
+        border-radius: 50px;
+        width: 100%;
+    }
+
+    .newsletter form button {
+        font-size: 18px;
+        border-radius: 50px;
+    }
+
+    footer {
+        padding: 60px 20px;
+    }
+
+    footer .subTitle, footer a {
+        line-height: 1.8em;
+    }
+
+    footer .top-part{
+        flex-wrap: wrap;
+    }
+
+    footer .right .subTitle {
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    footer .social-part {
+        padding: 50px 0;
+    }
+
+    footer .social-part img {
+        margin: 0 5px;
+        width: 50px;
+    }
+
+    footer .bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
